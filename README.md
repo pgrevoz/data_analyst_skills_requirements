@@ -126,4 +126,4 @@ senior data analyst.
 👉 **[View interactive dashboard on Tableau Public](https://public.tableau.com/views/DataAnalystSkills/DataAnalystSkills?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 
-![Data Analyst Skills Requirements Preview](visuals/data_analyst_skills_dashboard.png)
+![Data Analyst Skills Requirements Preview](jobs-analysis/visuals/data_analyst_skills_dashboard.png)
