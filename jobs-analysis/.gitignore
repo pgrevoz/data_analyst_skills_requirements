@@ -1,0 +1,9 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/enriched/
+*.db
+.DS_Store
+data/exports/

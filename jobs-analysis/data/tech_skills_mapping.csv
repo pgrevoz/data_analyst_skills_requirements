@@ -1,0 +1,272 @@
+variant,canonical,type,category
+Tableau,Tableau,Tool,Visualisation
+Tableau Prep,Tableau,Tool,Visualisation
+Tableau Pulse,Tableau,Tool,Visualisation
+Power BI,Power BI,Tool,Visualisation
+PowerBI,Power BI,Tool,Visualisation
+DAX,Power BI,Tool,Visualisation
+Power Query,Power BI,Tool,Visualisation
+Power Pivot,Power BI,Tool,Visualisation
+DirectLake,Power BI,Tool,Visualisation
+Power BI Copilot,Power BI,Tool,Visualisation
+Looker,Looker,Tool,Visualisation
+LookML,Looker,Tool,Visualisation
+Looker Studio,Looker Studio,Tool,Visualisation
+Metabase,Metabase,Tool,Visualisation
+Superset,Superset,Tool,Visualisation
+ThoughtSpot,ThoughtSpot,Tool,Visualisation
+QuickSight,QuickSight,Tool,Visualisation
+Quicksight,QuickSight,Tool,Visualisation
+Qlik,Qlik,Tool,Visualisation
+QLIK,Qlik,Tool,Visualisation
+Qlik Sense,Qlik,Tool,Visualisation
+Qlik View,Qlik,Tool,Visualisation
+Qlik Cloud,Qlik,Tool,Visualisation
+nPrinting,Qlik,Tool,Visualisation
+SSRS,SSRS,Tool,Visualisation
+SQL Server Reporting Services,SSRS,Tool,Visualisation
+Business Objects,Business Objects,Tool,Visualisation
+MicroStrategy,MicroStrategy,Tool,Visualisation
+Grafana,Grafana,Tool,Visualisation
+Kibana,Kibana,Tool,Visualisation
+Domo,Domo,Tool,Visualisation
+Streamlit,Streamlit,Tool,Visualisation
+Dash,Dash,Tool,Visualisation
+Lightdash,Lightdash,Tool,Visualisation
+Omni,Omni,Tool,Visualisation
+GoodData,GoodData,Tool,Visualisation
+Holistics,Holistics,Tool,Visualisation
+Visualisation,Visualisation,Concept,Visualisation
+Data Visualization,Visualisation,Concept,Visualisation
+Data visualisation,Visualisation,Concept,Visualisation
+Data visualisation tools,Visualisation,Concept,Visualisation
+data visualization platforms,Visualisation,Concept,Visualisation
+dashboarding,Visualisation,Concept,Visualisation
+Reporting,Visualisation,Concept,Visualisation
+BI tools,Visualisation,Concept,Visualisation
+Business Intelligence tools,Visualisation,Concept,Visualisation
+BI development,Visualisation,Concept,Visualisation
+SQL,SQL,Language,SQL & Querying
+T-SQL,T-SQL,Tool,SQL & Querying
+CTEs,SQL,Concept,SQL & Querying
+PySQL,PySQL,Tool,SQL & Querying
+SQL Server,SQL Server,Tool,SQL & Querying
+MS SQL Server,SQL Server,Tool,SQL & Querying
+Microsoft SQL Server Management Studio,SQL Server,Tool,SQL & Querying
+Azure SQL,Azure,Tool,Cloud Platforms
+Oracle,Oracle,Tool,SQL & Querying
+Postgres,PostgreSQL,Tool,SQL & Querying
+NoSQL,NoSQL,Concept,SQL & Querying
+MongoDB,MongoDB,Tool,SQL & Querying
+relational databases,SQL,Concept,SQL & Querying
+Python,Python,Language,Python
+pandas,pandas,Tool,Python
+Pandas,pandas,Tool,Python
+numpy,numpy,Tool,Python
+scipy,scipy,Tool,Python
+matplotlib,matplotlib,Tool,Python
+seaborn,seaborn,Tool,Python
+statsmodels,statsmodels,Tool,Python
+polars,polars,Tool,Python
+Excel,Excel,Tool,Spreadsheets & Office
+Microsoft Office,Excel,Tool,Spreadsheets & Office
+Microsoft Office Suite,Excel,Tool,Spreadsheets & Office
+MS Office,Excel,Tool,Spreadsheets & Office
+Office 365,Excel,Tool,Spreadsheets & Office
+VBA,VBA,Language,Spreadsheets & Office
+Power Automate,Power Automate,Tool,Spreadsheets & Office
+Power Platform,Power Automate,Tool,Spreadsheets & Office
+Google Sheets,Google Sheets,Tool,Spreadsheets & Office
+Google Workspace,Google Sheets,Tool,Spreadsheets & Office
+Google Apps Script,Google Apps Script,Tool,Spreadsheets & Office
+PowerPoint,PowerPoint,Tool,Spreadsheets & Office
+Word,Word,Tool,Spreadsheets & Office
+Microsoft Word,Word,Tool,Spreadsheets & Office
+Access,Access,Tool,Spreadsheets & Office
+Microsoft Access,Access,Tool,Spreadsheets & Office
+AWS,AWS,Tool,Cloud Platforms
+AWS Glue,AWS,Tool,Cloud Platforms
+AWS Lambda,AWS,Tool,Cloud Platforms
+AWS S3,AWS,Tool,Cloud Platforms
+AWS SageMaker,AWS,Tool,Cloud Platforms
+S3,AWS,Tool,Cloud Platforms
+Lambda,AWS,Tool,Cloud Platforms
+EC2,AWS,Tool,Cloud Platforms
+ECS,AWS,Tool,Cloud Platforms
+Athena,AWS,Tool,Cloud Platforms
+Aurora,AWS,Tool,Cloud Platforms
+Redshift,AWS,Tool,Cloud Platforms
+CloudFormation,AWS,Tool,Cloud Platforms
+MWAA,AWS,Tool,Cloud Platforms
+Azure,Azure,Tool,Cloud Platforms
+Azure Data Factory,Azure,Tool,Cloud Platforms
+Data Factory,Azure,Tool,Cloud Platforms
+Azure Data Lake,Azure,Tool,Cloud Platforms
+Azure Synapse,Azure,Tool,Cloud Platforms
+Azure Synapse Analytics,Azure,Tool,Cloud Platforms
+Azure DevOps,Azure,Tool,Cloud Platforms
+ADO,Azure,Tool,Cloud Platforms
+Azure ML,Azure,Tool,Cloud Platforms
+Azure Stream Analytics,Azure,Tool,Cloud Platforms
+Azure Data Warehouse,Azure,Tool,Cloud Platforms
+Event Hubs,Azure,Tool,Cloud Platforms
+Azure Data Engineering certifications,Azure,Tool,Cloud Platforms
+Microsoft Fabric,Azure,Tool,Cloud Platforms
+Google Cloud,Google Cloud,Tool,Cloud Platforms
+GCP,Google Cloud,Tool,Cloud Platforms
+Google Cloud Platform,Google Cloud,Tool,Cloud Platforms
+Google Cloud Dataflow,Google Cloud,Tool,Cloud Platforms
+Cloud Composer,Google Cloud,Tool,Cloud Platforms
+Snowflake,Snowflake,Tool,Cloud Platforms
+Snowpark,Snowflake,Tool,Cloud Platforms
+BigQuery,BigQuery,Tool,Cloud Platforms
+Big Query,BigQuery,Tool,Cloud Platforms
+Google BigQuery,BigQuery,Tool,Cloud Platforms
+BigQuery ML,BigQuery,Tool,Cloud Platforms
+Cloud platforms,Cloud Platforms,Concept,Cloud Platforms
+cloud platforms,Cloud Platforms,Concept,Cloud Platforms
+Cloud-based data platforms,Cloud Platforms,Concept,Cloud Platforms
+cloud-based data platforms,Cloud Platforms,Concept,Cloud Platforms
+dbt,dbt,Tool,Data Engineering
+DBT,dbt,Tool,Data Engineering
+Airflow,Airflow,Tool,Data Engineering
+Apache Airflow,Airflow,Tool,Data Engineering
+Spark,Spark,Tool,Data Engineering
+Apache Spark,Spark,Tool,Data Engineering
+PySpark,Spark,Tool,Data Engineering
+Structured Streaming,Spark,Tool,Data Engineering
+Databricks,Databricks,Tool,Data Engineering
+Azure Databricks,Databricks,Tool,Data Engineering
+Databricks certifications,Databricks,Tool,Data Engineering
+Unity Catalog,Databricks,Tool,Data Engineering
+Kafka,Kafka,Tool,Data Engineering
+Pulsar,Pulsar,Tool,Data Engineering
+Talend,Talend,Tool,Data Engineering
+Informatica,Informatica,Tool,Data Engineering
+Matillion,Matillion,Tool,Data Engineering
+MuleSoft,MuleSoft,Tool,Data Engineering
+Apache Beam,Apache Beam,Tool,Data Engineering
+Apache NiFi,Apache NiFi,Tool,Data Engineering
+Alteryx,Alteryx,Tool,Data Engineering
+SSIS,SSIS,Tool,Data Engineering
+ETL,ETL,Concept,Data Engineering
+ETL tools,ETL,Concept,Data Engineering
+ETL/ELT,ETL,Concept,Data Engineering
+ELT,ETL,Concept,Data Engineering
+Data Engineering,Data Engineering,Concept,Data Engineering
+Lakehouse architecture,Lakehouse,Concept,Data Engineering
+Data Modelling,Data Modelling,Concept,Data Modelling
+Data modeling,Data Modelling,Concept,Data Modelling
+Data modelling,Data Modelling,Concept,Data Modelling
+data modelling,Data Modelling,Concept,Data Modelling
+dimensional modelling,Data Modelling,Concept,Data Modelling
+semantic modelling,Data Modelling,Concept,Data Modelling
+Data Vault,Data Modelling,Concept,Data Modelling
+Erwin DM,Erwin DM,Tool,Data Modelling
+Solidatus,Solidatus,Tool,Data Modelling
+Collibra,Collibra,Tool,Data Modelling
+R,R,Language,Statistics & Analytics
+SAS,SAS,Tool,Statistics & Analytics
+SPSS,SPSS,Tool,Statistics & Analytics
+Stata SE,Stata SE,Tool,Statistics & Analytics
+statistics,Statistics,Concept,Statistics & Analytics
+statistical analysis,Statistics,Concept,Statistics & Analytics
+Statistical analysis,Statistics,Concept,Statistics & Analytics
+statistical modeling,Statistics,Concept,Statistics & Analytics
+significance testing,Statistics,Concept,Statistics & Analytics
+A/B testing,A/B Testing,Concept,Statistics & Analytics
+experimentation,A/B Testing,Concept,Statistics & Analytics
+NLP,NLP,Concept,Statistics & Analytics
+scikit-learn,scikit-learn,Tool,Statistics & Analytics
+PyTorch,PyTorch,Tool,Statistics & Analytics
+TensorFlow,TensorFlow,Tool,Statistics & Analytics
+Machine Learning,Machine Learning,Concept,Statistics & Analytics
+machine learning,Machine Learning,Concept,Statistics & Analytics
+MLOps,MLOps,Concept,Statistics & Analytics
+Predictive Modelling,Predictive Modelling,Concept,Statistics & Analytics
+Predictive modelling,Predictive Modelling,Concept,Statistics & Analytics
+Generative AI,Generative AI,Concept,Generative AI
+GenAI,Generative AI,Concept,Generative AI
+GenAI technologies,Generative AI,Concept,Generative AI
+AI,Generative AI,Concept,Generative AI
+LLM,Generative AI,Concept,Generative AI
+LLMs,Generative AI,Concept,Generative AI
+LLM applications,Generative AI,Concept,Generative AI
+RAG,Generative AI,Concept,Generative AI
+vector databases,Generative AI,Concept,Generative AI
+Agentic AI systems,Generative AI,Concept,Generative AI
+prompt engineering,Generative AI,Concept,Generative AI
+ChatGPT,ChatGPT,Tool,Generative AI
+OpenAI,OpenAI,Tool,Generative AI
+Claude,Claude,Tool,Generative AI
+Copilot,Copilot,Tool,Generative AI
+GitHub Copilot,Copilot,Tool,Generative AI
+Cursor,Cursor,Tool,Generative AI
+LangChain,LangChain,Tool,Generative AI
+Git,Git,Tool,Version Control & DevOps
+git,Git,Tool,Version Control & DevOps
+GitHub,Git,Tool,Version Control & DevOps
+GitLab,Git,Tool,Version Control & DevOps
+Bitbucket,Git,Tool,Version Control & DevOps
+GitHub Actions,Git,Tool,Version Control & DevOps
+Docker,Docker,Tool,Version Control & DevOps
+Kubernetes,Kubernetes,Tool,Version Control & DevOps
+containers,Docker,Concept,Version Control & DevOps
+Terraform,Terraform,Tool,Version Control & DevOps
+Pulumi,Pulumi,Tool,Version Control & DevOps
+CircleCI,CircleCI,Tool,Version Control & DevOps
+CI/CD,CI/CD,Concept,Version Control & DevOps
+DevOps,DevOps,Concept,Version Control & DevOps
+Infrastructure as Code,Infrastructure as Code,Concept,Version Control & DevOps
+TDD,TDD,Concept,Version Control & DevOps
+Google Analytics,Google Analytics,Tool,Digital Analytics
+GA4,Google Analytics,Tool,Digital Analytics
+Google Tag Manager,Google Tag Manager,Tool,Digital Analytics
+GTM,Google Tag Manager,Tool,Digital Analytics
+Server-side tagging,Digital Analytics,Concept,Digital Analytics
+Adobe Analytics,Adobe Analytics,Tool,Digital Analytics
+Amplitude,Amplitude,Tool,Digital Analytics
+Mixpanel,Mixpanel,Tool,Digital Analytics
+Optimizely,Optimizely,Tool,Digital Analytics
+Content Square,ContentSquare,Tool,Digital Analytics
+VWO,VWO,Tool,Digital Analytics
+Brandwatch,Brandwatch,Tool,Digital Analytics
+Meltwater,Meltwater,Tool,Digital Analytics
+Sprinklr,Sprinklr,Tool,Digital Analytics
+Talkwalker,Talkwalker,Tool,Digital Analytics
+SAP,SAP,Tool,Enterprise Systems
+SAP ERP,SAP,Tool,Enterprise Systems
+SAP SuccessFactors,SAP,Tool,Enterprise Systems
+SuccessFactors,SAP,Tool,Enterprise Systems
+MS Dynamics,MS Dynamics,Tool,Enterprise Systems
+Salesforce,Salesforce,Tool,Enterprise Systems
+CRM,CRM,Concept,Enterprise Systems
+HiBob,HiBob,Tool,Enterprise Systems
+Workday,Workday,Tool,Enterprise Systems
+HRIS platforms,HRIS,Concept,Enterprise Systems
+NetSuite,NetSuite,Tool,Enterprise Systems
+Netsuite,NetSuite,Tool,Enterprise Systems
+Sage,Sage,Tool,Enterprise Systems
+ServiceNow,ServiceNow,Tool,Enterprise Systems
+Jira,Jira,Tool,Project Management
+Confluence,Confluence,Tool,Project Management
+Monday.com,Monday.com,Tool,Project Management
+SAFe,SAFe,Concept,Project Management
+Scrum,Scrum,Concept,Project Management
+GIS,GIS,Concept,GIS & Mapping
+ArcGIS,ArcGIS,Tool,GIS & Mapping
+QGIS,QGIS,Tool,GIS & Mapping
+JavaScript,JavaScript,Language,Programming
+C#,C#,Language,Programming
+C++,C++,Language,Programming
+Java,Java,Language,Programming
+HTML,HTML,Language,Programming
+Swift,Swift,Language,Programming
+Shell,Shell,Language,Programming
+Django,Django,Tool,Programming
+FastAPI,FastAPI,Tool,Programming
+APIs,APIs,Concept,Programming
+API management,APIs,Concept,Programming
+programming,Programming,Concept,Programming
+programming language,Programming,Concept,Programming
+programming languages,Programming,Concept,Programming
