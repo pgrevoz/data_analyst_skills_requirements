@@ -23,31 +23,6 @@ jobs-analysis/
 └── README.md
 ```
 
-## Setup
-
-### 1. Create and activate the virtual environment
-
-```bash
-python -m venv .venv
-source .venv/bin/activate   # macOS / Linux
-# .venv\Scripts\activate    # Windows
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Configure environment variables
-
-```bash
-cp .env.example .env
-# Edit .env and paste your Anthropic API key
-```
-
-Get your key at [console.anthropic.com](https://console.anthropic.com).
-
 ## Pipeline
 
 Run the steps in order:
@@ -63,18 +38,17 @@ python src/enricher.py
 python src/db.py
 ```
 
-## Output
+## Outputs
 
 | File | Description |
 |------|-------------|
-| `data/raw/jobs_raw.csv` | Raw scraped postings |
-| `data/enriched/jobs_enriched.csv` | Enriched with skills, seniority, fields |
-| `jobs.db` | Normalised SQLite database |
+| `data/raw/jobs_raw.csv` | Raw scraped job postings direct from LinkedIn |
+| `data/enriched/jobs_enriched.csv` | Enriched dataset with skills, seniority, salary and remote policy extracted |
+| `jobs.db` | Normalised SQLite database (companies, jobs, skills) |
+| `data/exports/jobs_flat.csv` | One row per job — ready for Tableau |
+| `data/exports/skills_flat.csv` | One row per skill with job and company context — ready for Tableau |
+| `data/exports/companies_flat.csv` | One row per company with job count — ready for Tableau |
 
-## Cost estimate
-
-LLM enrichment uses `claude-haiku-4-5-20251001`. Estimated cost for 1,000
-rows with two prompts each: **< £5**.
 
 ## Tech stack
 
@@ -83,3 +57,74 @@ rows with two prompts each: **< £5**.
 - pandas — data wrangling
 - SQLite — storage
 - Tableau Public — visualisation
+
+
+## Key Insights (Summary)
+
+### Seniority
+
+More than half of postings (54%) carry no seniority label at all. Companies care more about
+what you can do than where you sit on a ladder. Among roles that do specify a level, senior
+and lead positions outnumber entry-level ones, so the market skews towards experienced hires.
+
+### Hard Skills
+
+**SQL is the price of entry.** It appears in 69% of all postings, no other skill comes close.
+After that, Python is what separates candidates: it shows up in 41% of jobs, meaning
+if you don't know it, you're locked out of nearly half the market.
+
+On the tools side, Power BI dominates (41%), followed by Excel (35%) and Tableau (29%).
+Excel still being second might surprise people. It doesn't excite technical analysts, but
+hiring managers clearly still want it. Cloud platforms are equally pervasive: Azure, AWS,
+BigQuery and Snowflake all feature in the top 10, and together cloud-related skills appear
+in 28% of postings. dbt is the standout for data engineering work. If pipelines are part
+of your role, it's the one tool to prioritise.
+
+Visualisation skills, the ability to turn data into a decision, are expected in 58% of jobs.
+It's not a nice-to-have, it's a core part of the job description.
+
+### Soft Skills
+
+Communication and analytical thinking appear consistently across every seniority level.
+They are the baseline expectation for any data analyst role.
+
+What changes as you progress is revealing. Work ethic, ownership and eagerness to learn
+are heavily flagged in junior postings and quietly disappear at senior level. Not because
+they stop mattering, but because companies assume they're already there. Show them early
+and stop being asked to prove them.
+
+Stakeholder and relationship management works in exactly the opposite direction. It barely
+features in junior specs, but by the time you reach senior and lead level it becomes a
+top-three requirement. The more senior you get, the less the job is about the data,
+and the more it's about the people and decisions around it.
+
+### What does the ideal candidate look like?
+
+**Junior Data Analyst**
+
+Start with SQL. It is non-negotiable and expected from day one. Add Python as early as
+possible, because without it you're already excluded from a significant share of the market.
+On the tools side, get comfortable with Excel and at least one visualisation platform,
+Power BI being the most in-demand. Conceptually, you don't need to be a data engineer yet,
+but knowing the basics of how data moves and understanding cloud environments will set you
+apart from other entry-level candidates. Soft skills matter more at this stage than most
+people expect: showing curiosity, a strong work ethic and a genuine willingness to learn
+will be noticed and specifically looked for.
+
+**Senior Data Analyst**
+
+At senior level the technical bar is higher and broader. SQL and Python are assumed.
+You'll be expected to work confidently with cloud platforms, Azure and Snowflake being the
+most frequently mentioned, and to understand the full data stack, including transformation
+tools like dbt. Visualisation remains central, but the expectation shifts from "can you
+build a chart" to "can you turn analysis into a business decision." The biggest shift from
+junior to senior is not technical, it's interpersonal. Stakeholder management becomes one
+of the most demanded skills: the ability to communicate findings clearly, influence
+decisions, and manage expectations across the business is what ultimately defines a
+senior data analyst.
+
+## Tableau Dashboard - Data Analyst Skills
+👉 **[View interactive dashboard on Tableau Public](https://public.tableau.com/views/DataAnalystSkills/DataAnalystSkills?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+
+![Data Analyst Skills Requirements Preview](visuals/data_analyst_skills_dashboard.png)
