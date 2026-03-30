@@ -20,7 +20,6 @@ jobs-analysis/
 ├── .env.example
 ├── .gitignore
 ├── requirements.txt
-└── README.md
 ```
 
 ## Pipeline
